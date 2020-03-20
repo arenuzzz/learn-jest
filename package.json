@@ -4,16 +4,42 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arenuzzz/learn-jest.git"
   },
-  "author": "",
+  "author": "arenuzzz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arenuzzz/learn-jest/issues"
   },
-  "homepage": "https://github.com/arenuzzz/learn-jest#readme"
+  "homepage": "https://github.com/arenuzzz/learn-jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@stryker-mutator/jest-runner": "^3.0.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.0",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.23",
+    "react": "^16.13.1"
+  }
 }
